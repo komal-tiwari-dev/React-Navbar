@@ -24,7 +24,9 @@ a {
   gap: 30px;
   font-size: larger;
 }
-.navbar > a:nth-child(3) {
+button{
+    border: 0px;
+    color: white;
   background-color: teal;
   border-radius: 20px;
   padding: 10px;

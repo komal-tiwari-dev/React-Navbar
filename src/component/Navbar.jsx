@@ -10,7 +10,7 @@ function Navbar() {
             <a href="#PROJECTS">Projects</a>
             <a href="#ABOUT">About</a>
         </div>
-        <a href="#CONNECT">Connect</a>
+        <button>Connect</button>
     </div>
   )
 }
