@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+    position: sticky;
+    z-index: 1;
+  background: rgb(180, 74, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 74, 58, 1) 0%,
+    rgba(127, 253, 29, 1) 0%,
+    rgba(44, 192, 185, 1) 28%,
+    rgba(107, 39, 253, 1) 66%,
+    rgba(252, 69, 220, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+}
+.navbar > div {
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+}
+.navbar > a:nth-child(3) {
+  background-color: teal;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: larger;
+}
