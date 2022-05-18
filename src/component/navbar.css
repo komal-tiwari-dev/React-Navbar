@@ -24,6 +24,13 @@ a {
   gap: 30px;
   font-size: larger;
 }
+ul{
+  display: flex;
+  gap: 30px;
+}
+ul li{
+  list-style: none;
+}
 button{
     border: 0px;
     color: white;

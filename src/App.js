@@ -1,26 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Navbar';
+import './component/navbar.css'
+import { Logo } from './component/logo';
+import { Fragment } from 'react';
+import { Links } from './component/Link';
+import { Button } from './component/connect';
 
 function App() {
+  let linkarr=["Service","Projects","About"]
   return (
-    <div className="App">
-      <Navbar/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Navbar Assignment
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="navbar">
+        <Logo />
+        <div className="link">
+          <Links data={linkarr} />
+        </div>
+        <Button />
+      </div>
+    </Fragment>
   );
 }
 
